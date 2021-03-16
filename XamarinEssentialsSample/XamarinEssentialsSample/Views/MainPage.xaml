@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:XamarinEssentialsSample.Controls"
+             x:Class="XamarinEssentialsSample.MainPage">
+
+    <StackLayout Padding="5">
+        <Button Text="Get GPS Position" Command="{Binding GetGpsPositionCommand}"/>
+
+        <StackLayout Padding="5">
+            <StackLayout Orientation="Horizontal">
+                <Label Text ="Longitude" FontAttributes="Bold"/>
+                <Label Text ="{Binding CurrentLocation.Longitude}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text ="Latitude" FontAttributes="Bold"/>
+                <Label Text ="{Binding CurrentLocation.Latitude}"/>
+            </StackLayout>
+        </StackLayout>
+        
+        <Button Text="Map at a position example" Command="{Binding OpenMapCommandAtPositionCommand}"/>
+       
+        
+        <controls:CustomMap x:Name="Map" CenterRegion="{Binding CenterPosition}" VerticalOptions="FillAndExpand">
+            
+            
+        </controls:CustomMap>
+            
+    </StackLayout>
+
+</ContentPage>

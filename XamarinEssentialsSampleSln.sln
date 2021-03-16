@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinEssentialsSample.Android", "XamarinEssentialsSample\XamarinEssentialsSample.Android\XamarinEssentialsSample.Android.csproj", "{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinEssentialsSample", "XamarinEssentialsSample\XamarinEssentialsSample\XamarinEssentialsSample.csproj", "{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0B9345-2707-463E-B0A1-CA3A99C6BC96}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5929FBB-7FB4-4D2B-8CEF-156AAB0B0C6E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3AA4F8A-A67A-4091-AA65-B76C0C26FA5C}
+	EndGlobalSection
+EndGlobal
